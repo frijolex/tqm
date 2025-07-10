@@ -55,7 +55,7 @@ export default function Main() {
                 onClick={handleYesAnswerButton}
                 className="bg-tertiary text-secondary font-bold px-6 py-2 rounded border-primary border-r-2 border-b-2 active:bg-secondary active:color-tertiary transition-colors duration-300"
               >
-                Sim
+                chi
               </button>
 
               {currentAnswer === answers.length - 1 && (
@@ -64,7 +64,7 @@ export default function Main() {
                   onClick={handleNoAnswerButton}
                   className="bg-tertiary text-secondary font-bold px-6 py-2 rounded border-primary border-r-2 border-b-2 active:bg-secondary active:text-tertiary transition-colors duration-300"
                 >
-                  Não
+                  ño
                 </button>
               )}
             </>
@@ -73,15 +73,14 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
+                    <b>Eres una rosa de algodón bajo la luna.</b> - Juan
                   </p>
 
-                  <p align="center">Te amo Bel, minha princesinha gatinha</p>
+                  <p align="center">Te quiero mucho Gabriela, eres mi esperanza sin supervisión.</p>
 
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
-                </>
+                
               ) : (
                 <>
                   <p className="font-semibold max-w-md" align="center">
@@ -89,8 +88,7 @@ export default function Main() {
                   </p>
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
-                </>
+                  
               )}
             </div>
           )}
