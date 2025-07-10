@@ -21,10 +21,10 @@ export default function Main() {
   const noButton = useRef()
   const [currentAnswer, setCurrentAnswer] = useState(0);
   const answers = [
-    "Você está disposta a responder algumas perguntas?",
-    "Você responderá com total sinceridade?",
-    "Tem certeza de que deseja continuar?",
-    !question ? "Namora comigo? 💍" : question,
+    "Estás dispuesta a responder algunas preguntas (?)",
+    "Responderás con total sinceridad (?)",
+    "Tienes certeza de que desea continuar (?)",
+    !question ? "Saldrías conmigo la semana que viene? 💖✨" : question,
   ]
 
   const handleYesAnswerButton = () => {
