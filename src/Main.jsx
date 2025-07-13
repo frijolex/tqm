@@ -76,7 +76,7 @@ export default function Main() {
                     <b>Eres una rosa de algodón bajo la luna.</b> - Juan
                   </p>
 
-                  <p align="center">Te quiero mucho Gabriela, eres mi esperanza sin supervisión.</p>
+                  <p align="center">Gabriela, eres mi esperanza sin supervisión.</p>
 
                   <img src={health} alt="" width={200} />
 
